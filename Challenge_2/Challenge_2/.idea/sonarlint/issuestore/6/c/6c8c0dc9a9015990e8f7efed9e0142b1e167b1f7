@@ -1,0 +1,58 @@
+
+y
+java:S1192"\Define a constant instead of duplicating this literal "===========================" 4 times.(²İ¨¦8µÛó…®1
+}
+java:S1192)"[Define a constant instead of duplicating this literal "==========================" 4 times.(Åá—•şÿÿÿÿ8©Ó…®1
+
+java:S1192u"]Define a constant instead of duplicating this literal "===========================
+" 4 times.(“ığ§úÿÿÿÿ8®‹Ó…®1
+c
+java:S1192_"FDefine a constant instead of duplicating this literal "     " 3 times.(¾±©8®‹Ó…®1
+‰
+java:S1319U"gThe type of "pesanan" should be an interface such as "List" rather than the implementation "ArrayList".(™†Œ€şÿÿÿÿ8¯‹Ó…®1
+
+java:S1319U"lThe type of "hargaMakanan" should be an interface such as "List" rather than the implementation "ArrayList".(™†Œ€şÿÿÿÿ8¯‹Ó…®1
+Œ
+java:S1319U"jThe type of "qtyMakanan" should be an interface such as "List" rather than the implementation "ArrayList".(™†Œ€şÿÿÿÿ8¯‹Ó…®1
+„
+java:S1319r"gThe type of "pesanan" should be an interface such as "List" rather than the implementation "ArrayList".(ÿª¼‰8¯‹Ó…®1
+‰
+java:S1319r"lThe type of "hargaMakanan" should be an interface such as "List" rather than the implementation "ArrayList".(ÿª¼‰8¯‹Ó…®1
+‡
+java:S1319r"jThe type of "qtyMakanan" should be an interface such as "List" rather than the implementation "ArrayList".(ÿª¼‰8¯‹Ó…®1
+i
+java:S2095t"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(İ—’„8Ó‹Ó…®1
+G	java:S106"+Replace this use of System.out by a logger.(²İ¨¦8í‹Ó…®1
+L	java:S106"+Replace this use of System.out by a logger.(Ş˜Í½úÿÿÿÿ8î‹Ó…®1
+G	java:S106"+Replace this use of System.out by a logger.(²İ¨¦8ï‹Ó…®1
+L	java:S106"+Replace this use of System.out by a logger.(Èêüúÿÿÿÿ8ï‹Ó…®1
+L	java:S106"+Replace this use of System.out by a logger.(ê¯ôñÿÿÿÿÿ8ï‹Ó…®1
+G	java:S106"+Replace this use of System.out by a logger.(¯À·å8ğ‹Ó…®1
+G	java:S106"+Replace this use of System.out by a logger.(¦šëå8ğ‹Ó…®1
+L	java:S106"+Replace this use of System.out by a logger.(˜ƒ·ÿÿÿÿÿ8ğ‹Ó…®1
+G	java:S106"+Replace this use of System.out by a logger.(²¾Œ÷8ñ‹Ó…®1
+L	java:S106"+Replace this use of System.out by a logger.(Ø²»Èúÿÿÿÿ8øêÓ…®1
+L	java:S106 "+Replace this use of System.out by a logger.(âÎß¬üÿÿÿÿ8ˆÄÔ…®1
+L	java:S106)"+Replace this use of System.out by a logger.(Åá—•şÿÿÿÿ8ƒÛã…®1
+G	java:S106*"+Replace this use of System.out by a logger.(ñİÃ´8„Ûã…®1
+L	java:S106+"+Replace this use of System.out by a logger.(Åá—•şÿÿÿÿ8…Ûã…®1
+G	java:S106,"+Replace this use of System.out by a logger.(Ú å‰8…Ûã…®1
+L	java:S106-"+Replace this use of System.out by a logger.(Ù‡Èºıÿÿÿÿ8…Ûã…®1
+G	java:S106."+Replace this use of System.out by a logger.(÷ÅÏ‡8…Ûã…®1
+F	java:S106="+Replace this use of System.out by a logger.(Ù½È'8…Ûã…®1
+G	java:S106D"+Replace this use of System.out by a logger.(·ŒÅÀ8†Ûã…®1
+L	java:S106H"+Replace this use of System.out by a logger.(Åá—•şÿÿÿÿ8†Ûã…®1
+L	java:S106I"+Replace this use of System.out by a logger.(¼×¯ğúÿÿÿÿ8†Ûã…®1
+L	java:S106J"+Replace this use of System.out by a logger.(Åá—•şÿÿÿÿ8†Ûã…®1
+L	java:S106N"+Replace this use of System.out by a logger.(“»øÿÿÿÿ8øÛó…®1
+G	java:S106W"+Replace this use of System.out by a logger.(ÅÅ8ùÛó…®1
+G	java:S106_"+Replace this use of System.out by a logger.(¾±©8úÛó…®1
+G	java:S106a"+Replace this use of System.out by a logger.(ÈÈåÉ8ûÛó…®1
+G	java:S106b"+Replace this use of System.out by a logger.(¨äú™8ûÛó…®1
+G	java:S106g"+Replace this use of System.out by a logger.(²İ¨¦8üÛó…®1
+L	java:S106h"+Replace this use of System.out by a logger.(âµºçÿÿÿÿÿ8üÛó…®1
+G	java:S106i"+Replace this use of System.out by a logger.(²İ¨¦8üÛó…®1
+G	java:S106k"+Replace this use of System.out by a logger.(ŸòÄ¿8üÛó…®1
+G	java:S106l"+Replace this use of System.out by a logger.(’…ëÒ8üÛó…®1
+L	java:S106m"+Replace this use of System.out by a logger.(Ø²»Èúÿÿÿÿ8üÛó…®1
+L	java:S106n"+Replace this use of System.out by a logger.(­–´½øÿÿÿÿ8ıÛó…®1

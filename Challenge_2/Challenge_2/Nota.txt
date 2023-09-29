@@ -1,20 +1,19 @@
-===========================
+===================
 BinarFud
-===========================
+===================
 
 Terima kasih sudah memesan
 di BinarFud
 
 Dibawah ini adalah pesanan anda
 
-Nasi Goreng      20     Rp 300,000
-Nasi + Ayam      3     Rp 54,000
---------------------------------+
-Total            23     Rp 354,000
+Nasi Goreng	100	Rp 1,500,000
+-----------------------+
+Total            100	Rp 1,500,000
 
 Pembayaran : BinarCash 
 
-===========================
+===================
 Simpan struk ini sebagai
 bukti pembayaran
-===========================
+===================

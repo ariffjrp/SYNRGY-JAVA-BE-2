@@ -2,18 +2,23 @@
 BinarFud
 ===================
 
-Terima kasih sudah memesan
-di BinarFud
+Terima kasih sudah memesan di BinarFud
 
-Dibawah ini adalah pesanan anda
+Dibawah ini adalah pesanan anda:
 
-Nasi Goreng	100	Rp 1,500,000
+Nama Menu	Qty	Harga
 -----------------------+
-Total            100	Rp 1,500,000
+Nasi Goreng	99	Rp 1,485,000
+Catatan: Nasi Goreng
+Mie Goreng	30	Rp 390,000
+Catatan: Mie Goreng
+Es Teh Manis	10	Rp 30,000
+Catatan: Es Teh Manis
+-----------------------+
+Total	139	Rp 1,905,000
 
-Pembayaran : BinarCash 
+Pembayaran : BinarCash
 
 ===================
-Simpan struk ini sebagai
-bukti pembayaran
+Simpan struk ini sebagai bukti pembayaran
 ===================

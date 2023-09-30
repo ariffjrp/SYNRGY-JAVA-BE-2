@@ -31,9 +31,28 @@ public class Tampilan {
         System.out.println("5. Es Jeruk       | 5.000");
         System.out.println("99. Pesan dan Bayar");
         System.out.println("0. Keluar aplikasi");
-        System.out.print( Konstan.NEW_LINE + "Tentukan pilihan anda : ");
-        return input.nextInt();
+
+        int choice = -1;
+
+        while (choice < 0) {
+            System.out.print(Konstan.NEW_LINE + "Tentukan pilihan anda : ");
+
+            try {
+                choice = input.nextInt();
+
+                if (choice < 0 || (choice != 0 && choice != 1 && choice != 2 && choice != 3 && choice != 4 && choice != 5 && choice != 99)) {
+                    System.out.println("Pilihan tidak valid. Silakan coba lagi.");
+                    choice = -1;
+                }
+            } catch (java.util.InputMismatchException e) {
+                System.out.println("Pilihan tidak valid. Silakan coba lagi.");
+                input.nextLine();
+            }
+        }
+
+        return choice;
     }
+
 
     public int getJumlahPesanan(MenuItem item) {
         int jumlah = 0;

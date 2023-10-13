@@ -3,6 +3,8 @@
     import model.*;
     import view.Tampilan;
 
+    import java.util.Optional;
+
     public class OrderController {
         private Data data;
         private Tampilan tampilan;
@@ -33,10 +35,10 @@
                     pesanController.prosesPesanan(totalHarga);
                 } else {
                     MenuListController menuController = new MenuListController(tampilan);
-                    MenuItem item = menuController.getItemByMenuNumber(pilihanMenu);
-                    if (item != null) {
+                    Optional<MenuItem> item = menuController.getItemByMenuNumber(pilihanMenu);
+                    if (item.isPresent()) {
                         PesanController pesanController = new PesanController(data, tampilan);
-                        totalHarga = pesanController.pesanItemMenu(item, totalHarga);
+                        totalHarga = pesanController.pesanItemMenu(item.get(), totalHarga);
                     } else {
                         tampilan.tampilkanPesan("Pilihan tidak valid. Silakan coba lagi.");
                     }

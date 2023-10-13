@@ -1,15 +1,15 @@
-package view;
+package com.Challenge_3.myproject.View;
 
 import java.util.Scanner;
 
-import model.MenuItem;
+import com.Challenge_3.myproject.Model.MenuItem;
 import java.util.ArrayList;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.stream.IntStream;
 
-import Utils.Konstan;
+import com.Challenge_3.myproject.Utils.Konstan;
 
 public class Tampilan {
     private Scanner input;

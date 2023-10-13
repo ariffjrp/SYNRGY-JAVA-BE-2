@@ -1,7 +1,7 @@
-package controller;
+package com.Challenge_3.myproject.Controller;
 
-import model.*;
-import view.Tampilan;
+import com.Challenge_3.myproject.Model.*;
+import com.Challenge_3.myproject.View.Tampilan;
 
 import java.util.ArrayList;
 import java.util.List;

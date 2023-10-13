@@ -1,0 +1,20 @@
+===================
+BinarFud
+===================
+
+Terima kasih sudah memesan di BinarFud
+
+Dibawah ini adalah pesanan anda:
+
+Nama Menu	Qty	Harga
+-----------------------+
+Nasi Goreng	99	Rp 1,485,000
+Catatan: Nasi Goreng
+-----------------------+
+Total	99	Rp 1,485,000
+
+Pembayaran : BinarCash
+
+===================
+Simpan struk ini sebagai bukti pembayaran
+===================

@@ -1,9 +1,7 @@
 package binarfud.Challenge_4.service;
 
-import binarfud.Challenge_4.model.OrderDetail;
-import binarfud.Challenge_4.model.OrderDetailDTO;
-import binarfud.Challenge_4.model.Product;
-import binarfud.Challenge_4.model.Users;
+import binarfud.Challenge_4.model.*;
+import binarfud.Challenge_4.repository.MerchantRepository;
 import binarfud.Challenge_4.repository.OrderDetailRepository;
 import binarfud.Challenge_4.repository.ProductRepository;
 import binarfud.Challenge_4.repository.UserRepository;
@@ -27,13 +25,20 @@ public class OrderDetailService {
     @Autowired
     UserRepository userRepository;
 
+    @Autowired
+    MerchantRepository merchantRepository;
+
     private final static Logger logger = LoggerFactory.getLogger(OrderDetailService.class);
 
     @Transactional
-    public OrderDetail createOrderDetail(OrderDetailDTO orderDetailDTO, UUID productId, UUID userId) {
+    public OrderDetail createOrderDetail(OrderDetailDTO orderDetailDTO, UUID productId, UUID userId, UUID merchantId) {
         Product product = productRepository.findById(productId).orElseThrow(() -> new EntityNotFoundException("Product not found"));
         Users user = userRepository.findById(userId).orElseThrow(() -> new EntityNotFoundException("User not found"));
+        Merchant merchant = merchantRepository.findById(merchantId).orElseThrow(() -> new EntityNotFoundException("Merchant not found"));
 
+        if (!product.getMerchant().getId().equals(merchantId)) {
+            throw new IllegalArgumentException("Product does not belong to the specified merchant");
+        }
 
         Integer priceItem = Math.toIntExact(product.getPrice());
         OrderDetail orderDetail = new OrderDetail()
@@ -41,7 +46,8 @@ public class OrderDetailService {
                 .setPriceItem(priceItem)
                 .setCatatan(orderDetailDTO.getCatatan())
                 .setProduct(product)
-                .setUser(user);
+                .setUser(user)
+                .setMerchant(merchant);
 
         return orderDetailRepository.save(orderDetail);
     }

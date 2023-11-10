@@ -11,9 +11,11 @@ import java.util.UUID;
 public interface ProductService {
     List<Product> getAll(long qty);
 
+    List<Product> filterPrice(long maxPrice, long minPrice);
+
     Product createProduct(ProductDTO productDTO, UUID merchantId);
 
-    Product updateUpdate(UUID updateId, Product updatedProduct);
+    Product updateUpdate(UUID updateId, ProductDTO updatedProduct);
 
     void deleteUpdate(UUID updateId);
 }

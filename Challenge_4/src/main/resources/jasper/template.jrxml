@@ -1,0 +1,48 @@
+<!-- template.jrxml -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="template" language="groovy" pageWidth="595" pageHeight="842" orientation="Portrait" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d889fb9e-0d53-4c60-9c69-2f7a8004da3b">
+    <title>
+        <band height="79" splitType="Stretch">
+            <textField>
+                <reportElement x="0" y="0" width="555" height="79" uuid="b216cf43-66a0-4715-b772-85f784b0cfc5"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA["Template Report"]]></textFieldExpression>
+            </textField>
+        </band>
+    </title>
+    <pageHeader>
+        <band height="40" splitType="Stretch">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="40" uuid="5c7de7c1-2b68-4e8d-9359-07c240e123b1"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <text><![CDATA[Page Header]]></text>
+            </staticText>
+        </band>
+    </pageHeader>
+    <detail>
+        <band height="125" splitType="Stretch">
+            <textField>
+                <reportElement x="0" y="0" width="555" height="30" uuid="69c1f276-2d92-4f48-b660-b4ff9b76ee1d"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <textFieldExpression><![CDATA["Detail Section"]]></textFieldExpression>
+            </textField>
+        </band>
+    </detail>
+    <pageFooter>
+        <band height="45" splitType="Stretch">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="45" uuid="a5102c25-6a6d-4c5a-9c20-af19e63003b0"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <text><![CDATA[Page Footer]]></text>
+            </staticText>
+        </band>
+    </pageFooter>
+    <summary>
+        <band height="42" splitType="Stretch">
+            <staticText>
+                <reportElement x="0" y="0" width="555" height="42" uuid="4f204631-71d4-47eb-b5ab-c426c4c7ba1a"/>
+                <textElement textAlignment="Center" verticalAlignment="Middle"/>
+                <text><![CDATA[Summary Section]]></text>
+            </staticText>
+        </band>
+    </summary>
+</jasperReport>

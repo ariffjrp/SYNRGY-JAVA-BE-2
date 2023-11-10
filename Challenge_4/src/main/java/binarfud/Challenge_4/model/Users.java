@@ -1,5 +1,7 @@
 package binarfud.Challenge_4.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,7 +17,7 @@ import java.util.UUID;
 @Accessors(chain = true)
 @Entity
 @Table(name = "Users")
-public class Users {
+public class Users extends AuditModel {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
@@ -28,6 +30,9 @@ public class Users {
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "user")
     private List<OrderDetail> orderDetails;
 
+
     @OneToOne(mappedBy = "user", cascade = CascadeType.REMOVE)
+    @JsonManagedReference
+    @JsonIgnoreProperties("user")
     private Account account;
 }

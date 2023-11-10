@@ -1,6 +1,7 @@
 package binarfud.Challenge_4.service;
 
 import binarfud.Challenge_4.model.Account;
+import binarfud.Challenge_4.model.AccountDTO;
 import binarfud.Challenge_4.repository.AccountRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,13 +18,14 @@ public class AccountService {
 
     private final static Logger logger = LoggerFactory.getLogger(AccountService.class);
 
-    public Account update(UUID id, Account account) {
+    public Account update(UUID id, AccountDTO account) {
         Optional<Account> optionalAccount = accountRepository.findById(id);
         if (optionalAccount.isPresent()) {
             Account accountToUpdate = optionalAccount.get();
             accountToUpdate.setName(account.getName());
             accountToUpdate.setAddress(account.getAddress());
             accountToUpdate.setPhone(account.getPhone());
+            accountToUpdate.setSaldo(account.getSaldo());
             logger.info(String.valueOf(accountToUpdate));
             return accountRepository.save(accountToUpdate);
         } else {

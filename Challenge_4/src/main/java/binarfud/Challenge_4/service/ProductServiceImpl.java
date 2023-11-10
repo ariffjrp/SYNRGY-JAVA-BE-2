@@ -31,6 +31,11 @@ public class ProductServiceImpl implements ProductService{
     }
 
     @Override
+    public List<Product> filterPrice(long maxPrice, long minPrice) {
+        return productRepository.findByPriceBetween(minPrice, maxPrice);
+    }
+
+    @Override
     public Product createProduct(ProductDTO productDTO, UUID merchantId) {
         Merchant merchant = merchantRepository.findById(merchantId).orElseThrow(() -> new EntityNotFoundException("Merchant not found"));
 
@@ -45,7 +50,7 @@ public class ProductServiceImpl implements ProductService{
     }
 
     @Override
-    public Product updateUpdate(UUID updateId, Product updatedProduct) {
+    public Product updateUpdate(UUID updateId, ProductDTO updatedProduct) {
         Optional<Product> optionalProduct = productRepository.findById(updateId);
         if (optionalProduct.isPresent()) {
             Product productToUpdate = optionalProduct.get();

@@ -10,6 +10,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 @RestController
@@ -21,14 +23,31 @@ public class OrderController {
     private final static Logger logger = LoggerFactory.getLogger(OrderController.class);
 
     @PostMapping
-    public ResponseEntity<Order> createOrder(@RequestBody OrderDTO orderDTO, @RequestParam("user_id") UUID userId) {
-        Order createdOrder = orderService.checkout(orderDTO, userId);
-
+    public ResponseEntity<Map<String, Object>> createOrder(@RequestBody OrderDTO orderDTO, @RequestParam("user_id") UUID userId, @RequestParam("merchant_id")  UUID merchantId) {
+        Map<String , Object> response = new HashMap<>();
+        Order createdOrder = orderService.checkout(orderDTO, userId, merchantId);
         if (createdOrder != null) {
             logger.info(String.valueOf(createdOrder));
-            return new ResponseEntity<>(createdOrder, HttpStatus.CREATED);
+            response.put("Message", "Order was created successfully");
+            response.put("Data", createdOrder);
+            return ResponseEntity.status(HttpStatus.CREATED).body(response);
         } else {
-            return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
+            response.put("Message", "Failed to create order. Please check application log.");
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+    }
+
+    @PatchMapping("/{orderId}")
+    public ResponseEntity<Object> updateCompleted(@PathVariable UUID orderId) {
+        try {
+            Order updatedOrder = orderService.UpdateCompleted(orderId);
+            if (updatedOrder != null) {
+                return ResponseEntity.ok("Order marked as completed.");
+            } else {
+                return ResponseEntity.notFound().build();
+            }
+        } catch (IllegalArgumentException e) {
+            return ResponseEntity.badRequest().body(e.getMessage());
         }
     }
 }

@@ -1,6 +1,7 @@
 package binarfud.Challenge_4.controller;
 
 import binarfud.Challenge_4.model.Account;
+import binarfud.Challenge_4.model.AccountDTO;
 import binarfud.Challenge_4.service.AccountService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,6 +11,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 
 @RestController
@@ -22,19 +25,25 @@ public class AccountController {
     private final static Logger logger = LoggerFactory.getLogger(AccountController.class);
 
     @PatchMapping("/{id}")
-    public ResponseEntity<Account> updateAccount(@PathVariable UUID id, @RequestBody Account accountUpdate) {
+    public ResponseEntity<Map<String, Object>> updateAccount(@PathVariable UUID id, @RequestBody AccountDTO accountUpdate) {
         try {
+            Map<String, Object> response = new HashMap<>();
             Account updatedAccount = accountService.update(id, accountUpdate);
 
             if (updatedAccount != null) {
                 logger.info(String.valueOf(updatedAccount));
-                return ResponseEntity.ok(updatedAccount);
+                response.put("Message", "Account successfully updated.");
+                response.put("Data", updatedAccount);
+                return ResponseEntity.ok(response);
             } else {
                 logger.warn(String.valueOf(updatedAccount));
+                response.put("Message", "Account not found!!!");
                 return ResponseEntity.notFound().build();
             }
         } catch (Exception e) {
+            Map<String, Object> response = new HashMap<>();
             logger.error(String.valueOf(e));
+            response.put("Message", "Failed to update account. Please check application log.");
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }

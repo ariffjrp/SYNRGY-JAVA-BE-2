@@ -14,7 +14,7 @@ import java.util.UUID;
 @Accessors(chain = true)
 @Entity
 @Table(name = "merchant")
-public class Merchant {
+public class Merchant extends AuditModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
@@ -22,6 +22,6 @@ public class Merchant {
 
     private String name;
     private String location;
+    private long income;
     private boolean open;
-
 }

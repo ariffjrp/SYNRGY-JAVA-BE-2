@@ -12,4 +12,6 @@ import java.util.UUID;
 @Repository
 public interface ProductRepository extends JpaRepository<Product, UUID> {
     List<Product> findByQtyGreaterThan(long qty);
+
+    List<Product> findByPriceBetween(long maxPrice, long minPrice);
 }

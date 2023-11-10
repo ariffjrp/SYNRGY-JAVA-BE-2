@@ -15,7 +15,7 @@ import java.util.UUID;
 @Accessors(chain = true)
 @Entity
 @Table(name = "Order Detail")
-public class OrderDetail {
+public class OrderDetail extends AuditModel {
     @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private UUID id;
@@ -33,5 +33,10 @@ public class OrderDetail {
     @ManyToOne(targetEntity = Users.class)
     @JoinColumn(name = "user_id")
     private Users user;
+
+    @JsonBackReference
+    @ManyToOne(targetEntity = Merchant.class)
+    @JoinColumn(name = "merchant_id")
+    private Merchant merchant;
 
 }

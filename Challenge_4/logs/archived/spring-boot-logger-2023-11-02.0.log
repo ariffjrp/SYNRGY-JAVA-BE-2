@@ -1,0 +1,565 @@
+2023-11-02 18:51:07,626 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 7104 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 18:51:07,634 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:51:08,997 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:51:09,108 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 98 ms. Found 6 JPA repository interfaces.
+2023-11-02 18:51:10,101 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 18:51:10,113 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:51:10,118 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 18:51:10,118 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 18:51:10,262 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 18:51:10,266 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2492 ms
+2023-11-02 18:51:10,519 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:51:10,600 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 18:51:10,604 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:51:11,031 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:51:11,075 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:51:11,396 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4fc6e776
+2023-11-02 18:51:11,398 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:51:11,451 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 18:51:12,983 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 18:51:13,162 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:51:13,867 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:51:14,259 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:51:14,287 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 18:51:14,303 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 7.714 seconds (process running for 9.503)
+2023-11-02 18:51:23,161 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 18:51:23,162 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-02 18:51:23,165 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-11-02 18:51:23,236 INFO b.C.c.MerchantController [http-nio-8080-exec-1] List Merchant
+2023-11-02 18:52:34,162 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-6] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]
+2023-11-02 18:52:37,804 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.util.UUID'; UUID string too large]
+2023-11-02 18:52:47,632 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:52:47,635 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:52:47,645 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 18:58:20,055 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 10648 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 18:58:20,066 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:58:22,688 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:58:22,922 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 212 ms. Found 6 JPA repository interfaces.
+2023-11-02 18:58:24,962 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 18:58:25,010 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:58:25,022 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 18:58:25,023 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 18:58:25,886 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 18:58:25,892 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5597 ms
+2023-11-02 18:58:26,838 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:58:27,116 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 18:58:27,124 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:58:29,503 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:58:29,675 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:58:31,131 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e807e2
+2023-11-02 18:58:31,141 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:58:31,297 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 18:58:34,604 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 10224 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 18:58:34,639 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:58:36,816 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 18:58:37,486 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:58:38,766 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:58:39,211 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 408 ms. Found 6 JPA repository interfaces.
+2023-11-02 18:58:40,095 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:58:41,206 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:58:41,277 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 18:58:41,331 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 22.982 seconds (process running for 24.249)
+2023-11-02 18:58:41,949 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 18:58:41,979 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:58:41,990 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 18:58:41,991 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 18:58:42,435 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 18:58:42,440 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7516 ms
+2023-11-02 18:58:42,880 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:58:43,072 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 18:58:43,079 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:58:43,847 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:58:43,900 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:58:44,394 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@23e2c1ca
+2023-11-02 18:58:44,399 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:58:44,493 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 18:58:47,410 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 18:58:47,647 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:58:48,726 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:58:49,276 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:58:49,323 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2023-11-02 18:58:49,326 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:58:49,330 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:58:49,338 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-11-02 18:58:49,343 INFO o.a.j.l.DirectJDKLog [main] Pausing ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:58:49,343 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-11-02 18:58:49,354 INFO o.a.j.l.DirectJDKLog [main] Stopping ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:58:49,355 INFO o.a.j.l.DirectJDKLog [main] Destroying ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:58:49,371 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-02 18:58:49,407 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2023-11-02 18:58:57,241 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:58:57,244 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:58:57,251 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 18:59:11,628 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 4872 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 18:59:11,632 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 18:59:12,870 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 18:59:13,034 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 149 ms. Found 6 JPA repository interfaces.
+2023-11-02 18:59:14,266 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 18:59:14,285 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:59:14,293 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 18:59:14,294 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 18:59:14,563 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 18:59:14,566 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2861 ms
+2023-11-02 18:59:14,931 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 18:59:15,047 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 18:59:15,052 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 18:59:15,692 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 18:59:15,748 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 18:59:16,175 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bede4ea
+2023-11-02 18:59:16,179 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 18:59:16,255 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 18:59:18,261 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 18:59:18,515 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:59:19,408 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 18:59:19,886 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 18:59:19,916 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 18:59:19,933 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 9.055 seconds (process running for 9.711)
+2023-11-02 18:59:27,368 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 18:59:27,369 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-02 18:59:27,372 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-11-02 18:59:27,717 INFO b.C.c.MerchantController [http-nio-8080-exec-2] tidak ada yang open
+2023-11-02 18:59:27,718 INFO b.C.c.MerchantController [http-nio-8080-exec-2] List Merchant
+2023-11-02 18:59:59,579 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 18:59:59,581 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 18:59:59,587 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 19:21:26,686 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 3288 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 19:21:26,700 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 19:21:30,613 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 19:21:30,917 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 264 ms. Found 6 JPA repository interfaces.
+2023-11-02 19:21:32,719 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 19:21:32,739 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 19:21:32,748 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 19:21:32,748 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 19:21:33,045 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 19:21:33,049 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5868 ms
+2023-11-02 19:21:33,468 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 19:21:33,630 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 19:21:33,636 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 19:21:34,438 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 19:21:34,511 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 19:21:34,981 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2049e582
+2023-11-02 19:21:34,986 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 19:21:35,077 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 19:21:37,770 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 19:21:38,087 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 19:21:39,564 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 19:21:40,270 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 19:21:40,317 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 19:21:40,342 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 15.768 seconds (process running for 16.467)
+2023-11-02 19:21:52,364 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 19:21:52,365 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-02 19:21:52,371 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2023-11-02 19:21:52,711 WARN b.C.c.MerchantController [http-nio-8080-exec-2] Message : Merchant Open Not Found
+2023-11-02 19:21:52,735 INFO b.C.c.MerchantController [http-nio-8080-exec-2] List Merchant
+2023-11-02 19:22:09,630 INFO b.C.c.MerchantController [http-nio-8080-exec-4] List Merchant
+2023-11-02 19:22:21,596 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 19:22:21,599 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 19:22:21,605 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 19:25:53,675 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 15592 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 19:25:53,683 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 19:25:56,093 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 19:25:56,321 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 205 ms. Found 6 JPA repository interfaces.
+2023-11-02 19:25:57,993 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 19:25:58,021 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 19:25:58,032 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 19:25:58,035 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 19:25:58,371 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 19:25:58,378 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4515 ms
+2023-11-02 19:25:58,913 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 19:25:59,087 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 19:25:59,093 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 19:25:59,771 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 19:25:59,827 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 19:26:00,355 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2049e582
+2023-11-02 19:26:00,358 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 19:26:00,444 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 19:26:02,888 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 19:26:03,151 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 19:26:04,305 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 19:26:05,077 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 19:26:05,161 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 19:26:05,185 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 13.974 seconds (process running for 15.117)
+2023-11-02 19:26:41,675 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 19:26:41,676 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-02 19:26:41,679 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 1 ms
+2023-11-02 19:26:42,060 INFO b.C.c.MerchantController [http-nio-8080-exec-2] List Merchant
+2023-11-02 19:26:53,938 INFO b.C.c.MerchantController [http-nio-8080-exec-4] List Merchant
+2023-11-02 19:27:02,605 WARN b.C.c.MerchantController [http-nio-8080-exec-5] Message : Merchant Open Not Found
+2023-11-02 19:27:02,605 INFO b.C.c.MerchantController [http-nio-8080-exec-5] List Merchant
+2023-11-02 19:27:49,373 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 19:27:49,376 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 19:27:49,382 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 19:32:43,548 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 17368 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 19:32:43,552 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 19:32:44,629 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 19:32:44,746 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 106 ms. Found 6 JPA repository interfaces.
+2023-11-02 19:32:45,860 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 19:32:45,871 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 19:32:45,876 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 19:32:45,877 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 19:32:46,017 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 19:32:46,019 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2377 ms
+2023-11-02 19:32:46,255 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 19:32:46,312 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 19:32:46,315 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 19:32:46,653 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 19:32:46,688 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 19:32:46,963 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@464aeb09
+2023-11-02 19:32:46,965 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 19:32:47,026 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 19:32:48,683 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 19:32:48,902 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 19:32:49,708 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 19:32:50,366 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 19:32:50,395 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 19:32:50,410 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 7.767 seconds (process running for 8.322)
+2023-11-02 19:33:31,935 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 19:33:31,936 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-02 19:33:31,940 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 3 ms
+2023-11-02 19:33:32,256 WARN b.C.c.MerchantController [http-nio-8080-exec-2] Message : Merchant Open Not Found
+2023-11-02 19:33:56,883 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 19:33:56,885 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 19:33:56,893 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 20:50:16,371 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 6668 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 20:50:16,376 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 20:50:17,712 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 20:50:17,800 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 77 ms. Found 6 JPA repository interfaces.
+2023-11-02 20:50:18,550 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 20:50:18,560 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 20:50:18,570 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 20:50:18,570 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 20:50:18,693 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 20:50:18,694 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2218 ms
+2023-11-02 20:50:18,909 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 20:50:18,992 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 20:50:18,997 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 20:50:19,348 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 20:50:19,376 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 20:50:19,754 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2049e582
+2023-11-02 20:50:19,756 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 20:50:19,796 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 20:50:21,134 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 20:50:21,364 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 20:50:22,154 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 20:50:22,668 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 20:50:22,693 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 20:50:22,707 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 7.136 seconds (process running for 8.436)
+2023-11-02 20:50:46,388 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 20:50:46,390 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-02 20:50:46,393 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 2 ms
+2023-11-02 20:50:46,635 INFO b.C.s.MerchantService [http-nio-8080-exec-2] binarfud.Challenge_4.model.Merchant@7006988f
+2023-11-02 20:50:46,636 INFO b.C.c.MerchantController [http-nio-8080-exec-2] binarfud.Challenge_4.model.Merchant@7006988f
+2023-11-02 20:50:55,635 INFO b.C.s.MerchantService [http-nio-8080-exec-4] binarfud.Challenge_4.model.Merchant@5346126e
+2023-11-02 20:50:55,640 INFO b.C.c.MerchantController [http-nio-8080-exec-4] binarfud.Challenge_4.model.Merchant@5346126e
+2023-11-02 20:51:09,469 INFO b.C.s.MerchantService [http-nio-8080-exec-3] binarfud.Challenge_4.model.Merchant@617d6786
+2023-11-02 20:51:09,484 INFO b.C.c.MerchantController [http-nio-8080-exec-3] binarfud.Challenge_4.model.Merchant@617d6786
+2023-11-02 20:51:26,673 INFO b.C.c.MerchantController [http-nio-8080-exec-6] List Merchant
+2023-11-02 20:51:38,719 INFO b.C.c.MerchantController [http-nio-8080-exec-7] List Merchant
+2023-11-02 20:52:05,855 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 20:52:05,857 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 20:52:05,869 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 22:22:40,514 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 16548 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 22:22:40,518 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 22:22:41,497 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 22:22:41,580 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 74 ms. Found 6 JPA repository interfaces.
+2023-11-02 22:22:42,248 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 22:22:42,258 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:22:42,261 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 22:22:42,261 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 22:22:42,373 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 22:22:42,374 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1791 ms
+2023-11-02 22:22:42,578 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 22:22:42,646 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 22:22:42,649 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 22:22:43,001 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 22:22:43,031 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 22:22:43,253 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1f7e52d1
+2023-11-02 22:22:43,255 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 22:22:43,291 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 22:22:44,584 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 22:22:44,736 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:22:45,241 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through method 'getUserById' parameter 0: No qualifying bean of type 'java.util.UUID' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-11-02 22:22:45,242 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:22:45,245 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-11-02 22:22:45,249 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-11-02 22:22:45,253 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-11-02 22:22:45,269 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-02 22:22:45,302 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method getUserById in binarfud.Challenge_4.service.UserServiceImpl required a bean of type 'java.util.UUID' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.UUID' in your configuration.
+
+2023-11-02 22:23:01,702 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 12384 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 22:23:01,707 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 22:23:02,585 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 22:23:02,669 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 73 ms. Found 6 JPA repository interfaces.
+2023-11-02 22:23:03,323 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 22:23:03,335 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:23:03,340 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 22:23:03,341 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 22:23:03,447 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 22:23:03,448 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1674 ms
+2023-11-02 22:23:03,647 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 22:23:03,707 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 22:23:03,709 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 22:23:04,005 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 22:23:04,046 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 22:23:04,282 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59d6642a
+2023-11-02 22:23:04,285 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 22:23:04,326 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 22:23:05,374 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 22:23:05,523 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:23:06,034 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through method 'getUserById' parameter 0: No qualifying bean of type 'java.util.UUID' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-11-02 22:23:06,035 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:23:06,038 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-11-02 22:23:06,045 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-11-02 22:23:06,047 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-11-02 22:23:06,061 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-02 22:23:06,089 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method getUserById in binarfud.Challenge_4.service.UserServiceImpl required a bean of type 'java.util.UUID' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.UUID' in your configuration.
+
+2023-11-02 22:23:26,210 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 7660 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 22:23:26,214 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 22:23:27,038 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 22:23:27,123 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 75 ms. Found 6 JPA repository interfaces.
+2023-11-02 22:23:27,741 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 22:23:27,750 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:23:27,754 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 22:23:27,754 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 22:23:27,852 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 22:23:27,853 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1576 ms
+2023-11-02 22:23:28,032 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 22:23:28,080 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 22:23:28,082 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 22:23:28,425 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 22:23:28,457 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 22:23:28,770 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@464aeb09
+2023-11-02 22:23:28,771 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 22:23:28,804 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 22:23:29,820 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 22:23:29,964 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:23:30,439 WARN o.s.c.s.AbstractApplicationContext [main] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController': Unsatisfied dependency expressed through field 'userService': Error creating bean with name 'userServiceImpl': Unsatisfied dependency expressed through method 'getUserById' parameter 0: No qualifying bean of type 'java.util.UUID' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2023-11-02 22:23:30,439 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:23:30,442 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown initiated...
+2023-11-02 22:23:30,452 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Shutdown completed.
+2023-11-02 22:23:30,457 INFO o.a.j.l.DirectJDKLog [main] Stopping service [Tomcat]
+2023-11-02 22:23:30,471 INFO o.s.b.a.l.ConditionEvaluationReportLogger [main] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-02 22:23:30,495 ERROR o.s.b.d.LoggingFailureAnalysisReporter [main] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method getUserById in binarfud.Challenge_4.service.UserServiceImpl required a bean of type 'java.util.UUID' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'java.util.UUID' in your configuration.
+
+2023-11-02 22:24:25,393 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 8132 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 22:24:25,397 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 22:24:26,248 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 22:24:26,324 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 69 ms. Found 6 JPA repository interfaces.
+2023-11-02 22:24:26,914 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 22:24:26,921 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:24:26,925 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 22:24:26,926 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 22:24:27,026 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 22:24:27,028 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1568 ms
+2023-11-02 22:24:27,218 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 22:24:27,264 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 22:24:27,266 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 22:24:27,546 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 22:24:27,570 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 22:24:27,751 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2049e582
+2023-11-02 22:24:27,754 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 22:24:27,797 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 22:24:28,835 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 22:24:28,977 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:24:29,481 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 22:24:29,844 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:24:29,866 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 22:24:29,877 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 5.153 seconds (process running for 5.641)
+2023-11-02 22:24:44,910 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 22:24:44,911 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2023-11-02 22:24:44,913 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2023-11-02 22:24:45,321 INFO b.C.c.UserController [http-nio-8080-exec-1] binarfud.Challenge_4.model.UsersDTO@f0a260d
+2023-11-02 22:25:09,567 INFO b.C.c.UserController [http-nio-8080-exec-3] binarfud.Challenge_4.model.UsersDTO@3b462d98
+2023-11-02 22:25:21,619 INFO b.C.c.UserController [http-nio-8080-exec-4] User updated successfully: null
+2023-11-02 22:25:40,147 INFO b.C.s.UserServiceImpl [http-nio-8080-exec-5] User Remove Account
+2023-11-02 22:25:40,148 INFO b.C.c.UserController [http-nio-8080-exec-5] User Removed
+2023-11-02 22:26:45,242 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-7] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:26:45,251 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-7] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:26:45,274 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:27:11,991 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-8] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:27:11,997 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-8] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:27:11,999 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-8] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:27:30,739 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-9] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:27:30,742 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-9] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:27:30,744 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-9] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:27:36,938 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:27:36,940 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 22:27:36,945 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 22:29:27,796 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 13768 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 22:29:27,801 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 22:29:28,621 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 22:29:28,699 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 70 ms. Found 6 JPA repository interfaces.
+2023-11-02 22:29:29,314 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 22:29:29,321 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:29:29,324 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 22:29:29,325 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 22:29:29,435 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 22:29:29,437 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1564 ms
+2023-11-02 22:29:29,620 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 22:29:29,675 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 22:29:29,677 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 22:29:29,947 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 22:29:29,974 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 22:29:30,174 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@464aeb09
+2023-11-02 22:29:30,177 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 22:29:30,228 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 22:29:31,278 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 22:29:31,433 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:29:32,036 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 22:29:32,346 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:29:32,368 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 22:29:32,380 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 5.356 seconds (process running for 5.865)
+2023-11-02 22:30:05,180 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-3] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 22:30:05,181 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Initializing Servlet 'dispatcherServlet'
+2023-11-02 22:30:05,183 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-3] Completed initialization in 2 ms
+2023-11-02 22:30:05,502 INFO b.C.s.ProductServiceImpl [http-nio-8080-exec-3] binarfud.Challenge_4.model.Product@3cc47ef1
+2023-11-02 22:30:05,585 INFO b.C.c.ProductController [http-nio-8080-exec-3] binarfud.Challenge_4.model.Product@3cc47ef1
+2023-11-02 22:30:12,726 INFO b.C.c.ProductController [http-nio-8080-exec-6] View Product
+2023-11-02 22:30:30,676 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-4] Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-11-02 22:30:38,747 INFO b.C.c.ProductController [http-nio-8080-exec-5] View Product
+2023-11-02 22:31:18,067 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-10] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:31:18,077 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-10] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:31:18,085 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:31:20,721 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-7] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:31:20,724 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-7] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:31:20,725 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-7] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:31:28,559 INFO b.C.s.ProductServiceImpl [http-nio-8080-exec-8] Product Remove Merchant
+2023-11-02 22:31:28,560 INFO b.C.c.ProductController [http-nio-8080-exec-8] Product Removed
+2023-11-02 22:32:02,165 INFO b.C.s.ProductServiceImpl [http-nio-8080-exec-9] Product Remove Merchant
+2023-11-02 22:32:02,166 INFO b.C.c.ProductController [http-nio-8080-exec-9] Product Removed
+2023-11-02 22:32:10,542 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-2] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:32:10,545 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-2] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:32:10,546 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-2] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:32:20,821 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-1] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:32:20,825 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-1] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:32:20,826 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-1] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:32:31,066 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-3] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:32:31,070 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-3] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:32:31,070 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:32:57,943 INFO b.C.c.OrderDetailController [http-nio-8080-exec-6] binarfud.Challenge_4.model.OrderDetail@2e63df95
+2023-11-02 22:35:06,855 INFO b.C.c.OrderDetailController [http-nio-8080-exec-9] [binarfud.Challenge_4.model.OrderDetail@b6d6c64]
+2023-11-02 22:35:29,614 INFO b.C.c.OrderController [http-nio-8080-exec-2] binarfud.Challenge_4.model.Order@2041877f
+2023-11-02 22:36:53,829 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:36:53,832 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 22:36:53,837 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2023-11-02 22:40:10,470 INFO o.s.b.StartupInfoLogger [main] Starting Challenge4Application using Java 17.0.8 with PID 14388 (D:\java\SYNRGY JAVA BE 2\Challenge_4\target\classes started by FAJAR in D:\java\SYNRGY JAVA BE 2\Challenge_4)
+2023-11-02 22:40:10,473 INFO o.s.b.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-02 22:40:11,266 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-02 22:40:11,342 INFO o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 68 ms. Found 6 JPA repository interfaces.
+2023-11-02 22:40:11,939 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2023-11-02 22:40:11,946 INFO o.a.j.l.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:40:11,949 INFO o.a.j.l.DirectJDKLog [main] Starting service [Tomcat]
+2023-11-02 22:40:11,949 INFO o.a.j.l.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-11-02 22:40:12,045 INFO o.a.j.l.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2023-11-02 22:40:12,046 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1508 ms
+2023-11-02 22:40:12,223 INFO o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-02 22:40:12,269 INFO o.h.Version [main] HHH000412: Hibernate ORM core version 6.2.13.Final
+2023-11-02 22:40:12,271 INFO o.h.c.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-02 22:40:12,528 INFO o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-02 22:40:12,556 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-02 22:40:12,739 INFO c.z.h.p.HikariPool [main] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@464aeb09
+2023-11-02 22:40:12,742 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-02 22:40:12,776 WARN o.h.e.j.d.i.DialectFactoryImpl [main] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2023-11-02 22:40:13,863 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2023-11-02 22:40:13,970 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] SQL Warning Code: 0, SQLState: 00000
+2023-11-02 22:40:13,970 WARN o.h.e.j.s.SqlExceptionHelper$StandardWarningHandler [main] constraint "uk_h6dr47em6vg85yuwt4e2roca4" of relation "account" does not exist, skipping
+2023-11-02 22:40:13,994 INFO o.s.o.j.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:40:14,542 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-02 22:40:14,851 INFO o.a.j.l.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2023-11-02 22:40:14,870 INFO o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2023-11-02 22:40:14,880 INFO o.s.b.StartupInfoLogger [main] Started Challenge4Application in 5.069 seconds (process running for 5.558)
+2023-11-02 22:40:41,574 INFO o.a.j.l.DirectJDKLog [http-nio-8080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-02 22:40:41,576 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Initializing Servlet 'dispatcherServlet'
+2023-11-02 22:40:41,581 INFO o.s.w.s.FrameworkServlet [http-nio-8080-exec-2] Completed initialization in 5 ms
+2023-11-02 22:40:42,016 INFO b.C.s.MerchantService [http-nio-8080-exec-2] binarfud.Challenge_4.model.Merchant@1ca2121f
+2023-11-02 22:40:42,019 INFO b.C.c.MerchantController [http-nio-8080-exec-2] binarfud.Challenge_4.model.Merchant@1ca2121f
+2023-11-02 22:40:51,449 INFO b.C.s.MerchantService [http-nio-8080-exec-3] binarfud.Challenge_4.model.Merchant@bf2928f
+2023-11-02 22:40:51,465 INFO b.C.c.MerchantController [http-nio-8080-exec-3] binarfud.Challenge_4.model.Merchant@bf2928f
+2023-11-02 22:40:55,651 INFO b.C.c.MerchantController [http-nio-8080-exec-4] List Merchant
+2023-11-02 22:41:04,502 INFO b.C.c.UserController [http-nio-8080-exec-7] binarfud.Challenge_4.model.UsersDTO@57674489
+2023-11-02 22:41:39,712 INFO b.C.c.UserController [http-nio-8080-exec-8] User updated successfully: null
+2023-11-02 22:42:35,747 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-10] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:42:35,751 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-10] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Account]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:42:35,761 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-10] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:42:58,378 INFO b.C.s.ProductServiceImpl [http-nio-8080-exec-1] binarfud.Challenge_4.model.Product@173dc7c8
+2023-11-02 22:42:58,399 INFO b.C.c.ProductController [http-nio-8080-exec-1] binarfud.Challenge_4.model.Product@173dc7c8
+2023-11-02 22:43:04,772 INFO b.C.c.ProductController [http-nio-8080-exec-2] View Product
+2023-11-02 22:43:37,455 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-3] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:43:37,462 WARN o.s.c.l.CompositeLog [http-nio-8080-exec-3] Failed to evaluate Jackson deserialization for type [[simple type, class binarfud.Challenge_4.model.Product]]: com.fasterxml.jackson.databind.exc.InvalidDefinitionException: Multiple back-reference properties with name 'defaultReference'
+2023-11-02 22:43:37,464 WARN o.s.w.s.h.AbstractHandlerExceptionResolver [http-nio-8080-exec-3] Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content-Type 'application/json;charset=UTF-8' is not supported]
+2023-11-02 22:56:05,868 INFO b.C.c.OrderDetailController [http-nio-8080-exec-7] binarfud.Challenge_4.model.OrderDetail@27023604
+2023-11-02 22:56:28,384 INFO b.C.c.UserController [http-nio-8080-exec-6] binarfud.Challenge_4.model.UsersDTO@64609464
+2023-11-02 22:57:20,040 INFO b.C.c.OrderController [http-nio-8080-exec-10] binarfud.Challenge_4.model.Order@4206846b
+2023-11-02 22:57:35,307 INFO o.s.o.j.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-11-02 22:57:35,309 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2023-11-02 22:57:35,313 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

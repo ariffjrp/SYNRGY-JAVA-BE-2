@@ -27,6 +27,16 @@ public class UserServiceImpl implements UserService {
     private final static Logger logger = LoggerFactory.getLogger(UserServiceImpl.class);
 
     @Override
+    public Users getUserById(UUID usersid){
+        Optional<Users> users = userRepository.findById(usersid);
+        if (users.isPresent()){
+            return users.get();
+        } else {
+            return null;
+        }
+    }
+
+    @Override
     @Transactional
     public UsersDTO createUser(UsersDTO usersDTO) {
         Users users = new Users();
@@ -37,6 +47,7 @@ public class UserServiceImpl implements UserService {
         Account account = new Account();
 
         users.setAccount(account);
+        account.setSaldo(0);
         account.setUser(users);
 
         userRepository.save(users);

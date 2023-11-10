@@ -11,10 +11,11 @@ public interface UserService {
     @Transactional
     void callCreateUserAccount(String username, String emailAddress, String password);
 
-
     UsersDTO createUser(UsersDTO usersDTO);
 
     Users updateUser1(UUID userId, UsersDTO updatedUser);
+
+    Users getUserById(UUID usersid);
 
     void deleteUser(UUID userId);
 

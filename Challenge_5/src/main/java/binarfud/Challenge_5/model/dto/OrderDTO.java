@@ -1,4 +1,4 @@
-package binarfud.Challenge_5.model;
+package binarfud.Challenge_5.model.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;

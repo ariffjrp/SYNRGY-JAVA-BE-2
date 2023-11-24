@@ -10,9 +10,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import java.awt.print.Pageable;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
@@ -70,5 +70,11 @@ public class ProductServiceImpl implements ProductService{
     public void deleteUpdate(UUID updateId) {
         productRepository.deleteById(updateId);
         logger.info("Product Remove Merchant");
+    }
+
+    @Override
+    public Page<Product> findProductWithPagination(int offset, int size){
+        Page<Product> products = productRepository.findAll(PageRequest.of(offset, size));
+        return products;
     }
 }

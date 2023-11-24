@@ -122,4 +122,20 @@ public class ProductController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
         }
     }
+
+
+    @GetMapping("/pagination/{offset}/{size}")
+    public ResponseEntity<Map<String, Object>> findProductWithPagination(@PathVariable int offset, @PathVariable int size){
+        try {
+            Map<String, Object> response = new HashMap<>();
+            Page<Product> products = productService.findProductWithPagination(offset, size);
+            response.put("Message", "Product was find by size");
+            response.put("Data", products);
+            return ResponseEntity.ok(response);
+        } catch (Exception e) {
+            Map<String, Object> response = new HashMap<>();
+            response.put("Message", "Failed to Find Data Product. Please check application log.");
+            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).build();
+        }
+    }
 }

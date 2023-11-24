@@ -18,4 +18,6 @@ public interface ProductService {
     Product updateUpdate(UUID updateId, ProductDTO updatedProduct);
 
     void deleteUpdate(UUID updateId);
+
+    Page<Product> findProductWithPagination(int offset, int size);
 }
